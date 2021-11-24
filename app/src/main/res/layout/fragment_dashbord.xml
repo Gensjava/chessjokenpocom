@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+
+        <variable
+            name="presenter"
+            type="com.example.gena.chessjokenpocom.mvp.presenters.dashboard.DashboardFragmentPresenter" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/separator"
+        android:dividerPadding="4dp"
+        android:showDividers="middle"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_quick_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/windowBackground"
+            android:gravity="center"
+            android:text="@string/quick_play"
+            android:onClick="@{presenter::onClick}"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_create_match"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/windowBackground"
+            android:gravity="center"
+            android:text="@string/create_a_match"
+            android:onClick="@{presenter::onClick}"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_lobby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/windowBackground"
+            android:gravity="center"
+            android:text="@string/lobby"
+            android:onClick="@{presenter::onClick}"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:divider="@drawable/separator"
+            android:dividerPadding="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_inventory"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:gravity="center"
+                android:text="@string/inventory"
+                android:onClick="@{presenter::onClick}"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tv_options"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:gravity="center"
+                android:text="@string/options"
+                android:onClick="@{presenter::onClick}"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

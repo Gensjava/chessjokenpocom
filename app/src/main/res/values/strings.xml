@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Chess</string>
+    <string name="error_fragment_is_not_created">Error. Fragment is not created</string>
+    <string name="error_label_sorry">Sorry</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_field_has_an_error">The field has an error</string>
+    <string name="action_ok">OK</string>
+    <string name="info_permission_read_phone_state_rationale">Read phone state permission is needed to identity your device.</string>
+    <string name="info_permission_location_phone_state_rationale">Read location state permission is needed to use the maps.</string>
+    <string name="info_permission_storage_phone_state_rationale">Read storage state permission is needed to use the photo gallery.</string>
+    <string name="info_permissions_not_granted">Permissions were not granted.</string>
+    <string name="first_name">First name</string>
+    <string name="second_name">Second name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="label_phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re-password</string>
+    <string name="name">Name</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="failed_to_connect_to">failed to connect to</string>
+    
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_a_color">Choose a color</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <string name="login">Login</string>
+    <string name="match">Match</string>
+    <string name="list_of_gamers">List of gamers</string>
+    <string name="country">Country</string>
+    <string name="quick_play">Quick play</string>
+    <string name="create_a_match">Create a match</string>
+    <string name="lobby">lobby</string>
+    <string name="shop">Shop</string>
+    <string name="options">Options</string>
+    <string name="inventory">Inventory</string>
+</resources>

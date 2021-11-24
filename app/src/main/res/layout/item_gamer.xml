@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <data>
+        
+        <import type="android.view.View" />
+        
+        <variable
+                name="usersContactInformation"
+                type="com.example.gena.chessjokenpocom.mvp.models.users.UsersContactInformation" />
+    </data>
+    
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            
+            android:padding="10dp">
+        
+        <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:srcCompat="@mipmap/ic_launcher_round" />
+        
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingStart="10dp">
+            
+            <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:hint="name"
+                    android:lineSpacingExtra="10sp"
+                    android:textSize="12sp" />
+            
+            <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="address"
+                    android:textSize="8sp" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>
+
